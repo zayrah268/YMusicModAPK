@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>YMusic Mod APK Detailed Review for Android Users — Features, Safety & Install</title>
+  <meta name="description" content="Detailed review of YMusic Mod APK for Android: ad-free audio-only streaming, background playback, offline downloads, how it works, installation steps, safety tips, pros and drawbacks." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://ymusicapks.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="YMusic Mod APK Detailed Review for Android Users" />
+  <meta property="og:description" content="Ad-free audio-only streaming, background playback, offline downloads, install steps, and safety tips." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://ymusicapks.com/" />
+  <meta property="og:site_name" content="YMusic APKs" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#13243E" />
+
+  <style>
+    :root{
+      /* Pro + unique palette: Deep Navy + Aqua + Mango + Magenta */
+      --bg:#070A14;
+
+      --surface:rgba(255,255,255,.06);
+      --surface2:rgba(255,255,255,.09);
+      --border:rgba(255,255,255,.12);
+
+      --text:rgba(255,255,255,.92);
+      --muted:rgba(255,255,255,.72);
+      --soft:rgba(255,255,255,.58);
+
+      --brand1:#13243E; /* deep navy */
+      --brand2:#11D3C6; /* aqua */
+      --brand3:#FFB020; /* mango */
+      --brand4:#FF4FD8; /* magenta accent (unique) */
+
+      --good:#35E29A;
+      --warn:#FFB020;
+
+      --shadow:0 18px 45px rgba(0,0,0,.45);
+      --rXL:22px;
+      --rLG:16px;
+      --rMD:12px;
+
+      --container:1120px;
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 20% 10%, rgba(17,211,198,.18), transparent 60%),
+        radial-gradient(900px 600px at 85% 20%, rgba(255,79,216,.14), transparent 55%),
+        radial-gradient(900px 700px at 55% 105%, rgba(255,176,32,.10), transparent 55%),
+        linear-gradient(180deg, #050714 0%, #070A14 60%, #050714 100%);
+      line-height:1.55;
+    }
+
+    a{ color:inherit; text-decoration:none; }
+    a:hover{ opacity:.96; }
+    .container{ width:min(var(--container), calc(100% - 40px)); margin:0 auto; }
+
+    /* Header */
+    header{
+      position:sticky; top:0; z-index:50;
+      backdrop-filter: blur(14px);
+      background: rgba(7,10,20,.55);
+      border-bottom:1px solid rgba(255,255,255,.08);
+    }
+    .nav{
+      display:flex; align-items:center; justify-content:space-between;
+      padding:14px 0; gap:12px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px;
+      font-weight:900; letter-spacing:.3px;
+    }
+    .logo{
+      width:34px; height:34px; border-radius:12px;
+      background:
+        radial-gradient(12px 12px at 30% 30%, rgba(255,255,255,.65), transparent 60%),
+        linear-gradient(135deg, var(--brand2), var(--brand4));
+      box-shadow:0 10px 25px rgba(17,211,198,.18);
+      border:1px solid rgba(255,255,255,.14);
+    }
+    .navlinks{
+      display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end;
+    }
+    .navlinks a{
+      font-size:14px; color:var(--muted);
+      padding:8px 10px; border-radius:12px;
+      border:1px solid transparent;
+    }
+    .navlinks a:hover{
+      color:var(--text);
+      border-color:rgba(255,255,255,.10);
+      background:rgba(255,255,255,.05);
+    }
+
+    /* Hero */
+    .hero{ padding:44px 0 26px; }
+    .hero-grid{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap:22px;
+      align-items:start;
+    }
+    @media (max-width: 960px){ .hero-grid{ grid-template-columns:1fr; } }
+
+    .hero-card{
+      border-radius:var(--rXL);
+      background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.04));
+      border:1px solid rgba(255,255,255,.11);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+      position:relative;
+    }
+    .hero-card::before{
+      content:"";
+      position:absolute; inset:-2px;
+      background:
+        radial-gradient(700px 320px at 10% 0%, rgba(17,211,198,.22), transparent 55%),
+        radial-gradient(700px 340px at 90% 10%, rgba(255,79,216,.16), transparent 55%),
+        radial-gradient(700px 320px at 50% 100%, rgba(255,176,32,.10), transparent 60%);
+      pointer-events:none;
+    }
+    .hero-inner{ position:relative; padding:28px 26px 26px; }
+
+    .kicker{
+      display:inline-flex; gap:10px; align-items:center;
+      padding:8px 12px;
+      border-radius:999px;
+      background:rgba(255,79,216,.10);
+      border:1px solid rgba(255,79,216,.18);
+      color:rgba(255,255,255,.88);
+      font-weight:800;
+      font-size:13px;
+    }
+    .kicker .dot{
+      width:8px; height:8px; border-radius:50%;
+      background:var(--brand4);
+      box-shadow:0 0 0 6px rgba(255,79,216,.14);
+    }
+
+    h1{
+      margin:14px 0 10px;
+      font-size: clamp(28px, 3.2vw, 44px);
+      line-height:1.15;
+      letter-spacing:-0.8px;
+    }
+    .sub{
+      margin:0 0 16px;
+      color:var(--muted);
+      font-size:16px;
+      max-width:68ch;
+    }
+
+    /* Buttons */
+    .cta-row{ display:flex; gap:12px; flex-wrap:wrap; margin-top:14px; }
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding:12px 16px;
+      border-radius:14px;
+      font-weight:900;
+      font-size:14px;
+      border:1px solid rgba(255,255,255,.14);
+      transition: transform .12s ease, background .12s ease, box-shadow .12s ease;
+      white-space:nowrap;
+    }
+    .btn-primary{
+      background:linear-gradient(135deg, var(--brand2), var(--brand4));
+      color:rgba(0,0,0,.92);
+      box-shadow:0 16px 34px rgba(17,211,198,.15);
+    }
+    .btn-primary:hover{ transform: translateY(-1px); }
+
+    .btn-mango{
+      background:linear-gradient(135deg, rgba(255,176,32,.98), rgba(255,79,216,.92));
+      color:rgba(0,0,0,.90);
+      box-shadow:0 16px 34px rgba(255,176,32,.12);
+    }
+    .btn-mango:hover{ transform: translateY(-1px); }
+
+    .btn-ghost{
+      background:rgba(255,255,255,.05);
+      color:var(--text);
+    }
+    .btn-ghost:hover{ background:rgba(255,255,255,.08); transform: translateY(-1px); }
+
+    .note{
+      margin-top:12px;
+      border-radius:var(--rLG);
+      padding:14px;
+      border:1px solid rgba(255,255,255,.12);
+      background:linear-gradient(180deg, rgba(255,176,32,.12), rgba(255,176,32,.06));
+      color:rgba(255,255,255,.88);
+    }
+
+    /* Right cards */
+    .side{ display:grid; gap:14px; }
+    .mini{
+      border-radius:var(--rXL);
+      background:rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.10);
+      padding:18px;
+      box-shadow:0 12px 30px rgba(0,0,0,.32);
+    }
+    .mini h2{ margin:0 0 8px; font-size:16px; }
+    .mini ul{ margin:10px 0 0; padding-left:18px; color:var(--muted); font-size:14px; }
+    .pillrow{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+    .pill{
+      padding:8px 10px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.04);
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    /* Main */
+    main{ padding:10px 0 70px; }
+    .content-grid{
+      display:grid;
+      grid-template-columns: 1fr 320px;
+      gap:22px;
+      align-items:start;
+    }
+    @media (max-width: 1040px){ .content-grid{ grid-template-columns:1fr; } }
+
+    article{
+      border-radius:var(--rXL);
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.10);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .article-inner{ padding:24px; }
+
+    .toc{
+      border-radius:var(--rLG);
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.10);
+      padding:16px;
+      margin:0 0 18px;
+    }
+    .toc strong{ display:block; font-size:14px; margin-bottom:8px; color:rgba(255,255,255,.86); }
+    .toc a{
+      display:block; padding:8px 10px;
+      border-radius:12px;
+      color:var(--muted);
+      border:1px solid transparent;
+      font-size:14px;
+    }
+    .toc a:hover{
+      color:var(--text);
+      border-color:rgba(255,255,255,.10);
+      background:rgba(255,255,255,.05);
+    }
+
+    section{ padding:12px 0; border-top:1px solid rgba(255,255,255,.08); }
+    section:first-of-type{ border-top:none; }
+    h2{ margin:6px 0 10px; font-size:22px; letter-spacing:-0.4px; }
+    h3{ margin:14px 0 8px; font-size:16px; color:rgba(255,255,255,.90); }
+    p{ margin:8px 0; color:var(--muted); }
+    ul{ color:var(--muted); }
+
+    /* Cards */
+    .cards{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:12px;
+      margin-top:12px;
+    }
+    @media (max-width: 720px){ .cards{ grid-template-columns:1fr; } }
+    .card{
+      border-radius:var(--rLG);
+      border:1px solid rgba(255,255,255,.10);
+      background:rgba(255,255,255,.04);
+      padding:14px;
+    }
+    .card .icon{
+      width:34px; height:34px;
+      border-radius:14px;
+      display:inline-flex; align-items:center; justify-content:center;
+      background:rgba(17,211,198,.12);
+      border:1px solid rgba(17,211,198,.20);
+      margin-bottom:10px;
+    }
+    .card strong{ display:block; margin-bottom:6px; }
+    .card p{ margin:0; font-size:14px; }
+
+    /* Steps */
+    .steps{ display:grid; gap:10px; margin-top:10px; }
+    .step{
+      display:grid;
+      grid-template-columns: 42px 1fr;
+      gap:12px;
+      padding:14px;
+      border-radius:var(--rLG);
+      border:1px solid rgba(255,255,255,.10);
+      background:rgba(255,255,255,.04);
+    }
+    .num{
+      width:42px; height:42px;
+      border-radius:16px;
+      background:linear-gradient(135deg, rgba(17,211,198,.18), rgba(255,79,216,.16));
+      border:1px solid rgba(255,255,255,.14);
+      display:flex; align-items:center; justify-content:center;
+      font-weight:900;
+    }
+
+    /* Mid CTA (2nd + 3rd links in middle) */
+    .mid-cta{
+      margin:14px 0 0;
+      border-radius:var(--rXL);
+      border:1px solid rgba(255,255,255,.12);
+      background:
+        radial-gradient(700px 220px at 15% 0%, rgba(17,211,198,.18), transparent 60%),
+        radial-gradient(700px 260px at 85% 0%, rgba(255,79,216,.14), transparent 60%),
+        rgba(255,255,255,.04);
+      padding:18px;
+    }
+    .mid-cta .row{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .mid-cta h3{ margin:0 0 6px; }
+    .mid-cta p{ margin:0; max-width:72ch; }
+
+    /* Sidebar */
+    aside{
+      position:sticky; top:76px;
+      display:grid; gap:14px;
+    }
+    @media (max-width: 1040px){ aside{ position:static; } }
+
+    .sidecard{
+      border-radius:var(--rXL);
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.10);
+      padding:16px;
+      box-shadow:0 10px 25px rgba(0,0,0,.30);
+    }
+    .sidecard h3{ margin:0 0 10px; }
+    .sidecard a.link{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:10px 12px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.04);
+      font-weight:900; font-size:14px;
+      transition: transform .12s ease, background .12s ease;
+    }
+    .sidecard a.link:hover{ background:rgba(255,255,255,.08); transform: translateY(-1px); }
+
+    footer{
+      padding:24px 0 36px;
+      color:var(--soft);
+      font-size:13px;
+      border-top:1px solid rgba(255,255,255,.08);
+    }
+  </style>
+
+  <!-- SEO Schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"YMusic Mod APK Detailed Review for Android Users",
+    "description":"A detailed review of YMusic Mod APK: ad-free playback, background listening, offline downloads, safety tips, and installation steps.",
+    "mainEntityOfPage":{"@type":"WebPage","@id":"https://ymusicapks.com/"},
+    "author":{"@type":"Organization","name":"YMusic APKs"},
+    "publisher":{"@type":"Organization","name":"YMusic APKs"}
+  }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">
+          <span class="logo" aria-hidden="true"></span>
+          <span>YMusic Mod Review</span>
+        </a>
+        <div class="navlinks">
+          <a href="#what">What it is</a>
+          <a href="#purpose">Purpose</a>
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+          <a href="#install">Install</a>
+          <a href="#safety">Safety</a>
+          <a href="#pros">Advantages</a>
+          <a href="#cons">Drawbacks</a>
+          <a href="#final">Final opinion</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="top" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Left -->
+        <div class="hero-card">
+          <div class="hero-inner">
+            <span class="kicker"><span class="dot" aria-hidden="true"></span> Ad-free • Audio-only • Offline-ready</span>
+
+            <h1>YMusic Mod APK Detailed Review for Android Users</h1>
+            <p class="sub">
+              YMusic Mod APK is built for people who use YouTube as a music source but want a smoother,
+              <strong>audio-only</strong> experience with <strong>background playback</strong> and <strong>offline downloads</strong>.
+              It focuses on performance, flexibility, and fewer interruptions.
+            </p>
+
+            <!-- 1st link at start -->
+            <div class="cta-row">
+              <a class="btn btn-primary" href="https://ymusicapks.com/" target="_blank" rel="noopener noreferrer">
+                Open Link 1 (ymusicapks.com) <span aria-hidden="true">↗</span>
+              </a>
+              <a class="btn btn-ghost" href="#install">
+                Jump to Install Steps <span aria-hidden="true">→</span>
+              </a>
+              <a class="btn btn-mango" href="#features">
+                View Key Features <span aria-hidden="true">→</span>
+              </a>
+            </div>
+
+            <div class="note" role="note">
+              <strong>Reminder:</strong> Modded apps are not on Google Play. Always use trusted sources and review permissions.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="side">
+          <div class="mini">
+            <h2>Best for</h2>
+            <ul>
+              <li>Daily music listeners</li>
+              <li>Students & office workers</li>
+              <li>Limited mobile data users</li>
+              <li>Offline listening fans</li>
+            </ul>
+            <div class="pillrow">
+              <span class="pill">Ad-free</span>
+              <span class="pill">Background</span>
+              <span class="pill">Offline</span>
+              <span class="pill">Low data</span>
+            </div>
+          </div>
+
+          <div class="mini">
+            <h2>Highlights</h2>
+            <ul>
+              <li>Audio-only extraction from YouTube</li>
+              <li>Less battery + bandwidth use</li>
+              <li>Built-in player & playlists</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="content-grid">
+
+        <article aria-label="YMusic Mod APK detailed review">
+          <div class="article-inner">
+
+            <div class="toc" aria-label="Table of contents">
+              <strong>Table of contents</strong>
+              <a href="#what">What Is YMusic Mod APK?</a>
+              <a href="#purpose">Purpose</a>
+              <a href="#features">Key Features</a>
+              <a href="#how">How It Works</a>
+              <a href="#install">Installation</a>
+              <a href="#safety">Safety</a>
+              <a href="#pros">Advantages</a>
+              <a href="#cons">Limitations</a>
+              <a href="#final">Final Opinion</a>
+            </div>
+
+            <section id="what">
+              <h2>What Is YMusic Mod APK?</h2>
+              <p>
+                <strong>YMusic Mod APK</strong> is a modified version of YMusic that lets users stream and download audio from YouTube videos.
+                It focuses on sound output only, which can reduce data usage and improve performance compared to video streaming.
+              </p>
+              <p>
+                Because it’s a modded application, it isn’t available on the Google Play Store and must be installed manually via APK.
+              </p>
+            </section>
+
+            <section id="purpose">
+              <h2>Purpose of YMusic Mod APK</h2>
+              <p>
+                The goal is simple: deliver a music-focused experience without unnecessary video features.
+                It’s especially useful for songs, podcasts, and long playlists.
+              </p>
+              <p>It is suitable for:</p>
+              <ul>
+                <li>Daily music listeners</li>
+                <li>Students and office workers</li>
+                <li>Users with limited mobile data</li>
+                <li>People who prefer offline listening</li>
+              </ul>
+            </section>
+
+            <section id="features">
+              <h2>Key Features of YMusic Mod APK</h2>
+
+              <div class="cards">
+                <div class="card">
+                  <div class="icon" aria-hidden="true">🚫</div>
+                  <strong>Completely Ad-Free Environment</strong>
+                  <p>Continuous playback without pop-ups, banners, or forced interruptions.</p>
+                </div>
+
+                <div class="card">
+                  <div class="icon" aria-hidden="true">🔒</div>
+                  <strong>Background Playback Without Limits</strong>
+                  <p>Play music with screen locked or while using other apps—works by default.</p>
+                </div>
+
+                <div class="card">
+                  <div class="icon" aria-hidden="true">🎧</div>
+                  <strong>High-Quality Audio Downloads</strong>
+                  <p>Download in multiple quality levels to balance storage and sound clarity.</p>
+                </div>
+
+                <div class="card">
+                  <div class="icon" aria-hidden="true">📶</div>
+                  <strong>Offline Music Access</strong>
+                  <p>Listen anytime without internet—ideal for travel, workouts, and weak signals.</p>
+                </div>
+              </div>
+
+              <div class="cards" style="margin-top:12px;">
+                <div class="card" style="grid-column:1 / -1;">
+                  <div class="icon" aria-hidden="true">🎼</div>
+                  <strong>Built-In Music Player & Playlists</strong>
+                  <p>Play, pause, repeat, shuffle, queue management, and playlist support—inside one app.</p>
+                </div>
+              </div>
+
+              <!-- Mid CTA with 2nd + 3rd link (requested) -->
+              <div class="mid-cta">
+                <div class="row">
+                  <div>
+                    <h3>More links (mid-page)</h3>
+                    <p>Open the additional pages below in a new tab.</p>
+                  </div>
+                  <div class="cta-row" style="margin:0;">
+                    <a class="btn btn-primary" href="https://ymusicmodapk-71847c.gitlab.io/" target="_blank" rel="noopener noreferrer">
+                      Open Link 2 <span aria-hidden="true">↗</span>
+                    </a>
+                    <a class="btn btn-mango" href="https://herrybroke.codeberg.page/yMusicios/" target="_blank" rel="noopener noreferrer">
+                      Open Link 3 <span aria-hidden="true">↗</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="how">
+              <h2>How YMusic Mod APK Works</h2>
+
+              <h3>Audio Extraction From YouTube</h3>
+              <p>
+                The app accesses publicly available YouTube streams and extracts only the audio portion.
+                This avoids video loading, which helps save bandwidth and battery.
+              </p>
+
+              <h3>Optimized Performance for Android</h3>
+              <p>
+                Without video rendering, the app uses fewer system resources, making it smoother on older or low-end devices.
+              </p>
+            </section>
+
+            <section id="install">
+              <h2>Installation Process of YMusic Mod APK</h2>
+              <p>Step-by-step installation guide:</p>
+
+              <div class="steps" role="list">
+                <div class="step" role="listitem">
+                  <div class="num">1</div>
+                  <div>
+                    <strong>Enable “Unknown Sources”</strong>
+                    <p>Allow installations from your browser or file manager in Android settings.</p>
+                  </div>
+                </div>
+
+                <div class="step" role="listitem">
+                  <div class="num">2</div>
+                  <div>
+                    <strong>Download the APK from a trusted website</strong>
+                    <p>Avoid suspicious mirrors or modified builds from unknown sources.</p>
+                  </div>
+                </div>
+
+                <div class="step" role="listitem">
+                  <div class="num">3</div>
+                  <div>
+                    <strong>Install the downloaded file</strong>
+                    <p>Locate the APK and tap to install. Review permissions before confirming.</p>
+                  </div>
+                </div>
+
+                <div class="step" role="listitem">
+                  <div class="num">4</div>
+                  <div>
+                    <strong>Open the app and start listening</strong>
+                    <p>No login, account creation, or subscription required.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="safety">
+              <h2>Is YMusic Mod APK Safe and Secure?</h2>
+              <p>
+                It’s generally safer when downloaded from a reliable source. The app typically doesn’t request unnecessary permissions,
+                but caution is still important because it’s unofficial.
+              </p>
+              <p><strong>Safety tips:</strong></p>
+              <ul>
+                <li>Avoid websites offering suspicious modified versions</li>
+                <li>Use antivirus software on your device</li>
+                <li>Keep Android security updates enabled</li>
+              </ul>
+            </section>
+
+            <section id="pros">
+              <h2>Advantages of Using YMusic Mod APK</h2>
+              <ul>
+                <li>Free access to premium-like features</li>
+                <li>No advertisements</li>
+                <li>Unlimited background playback</li>
+                <li>Offline music without restrictions</li>
+                <li>Lower data and battery consumption</li>
+                <li>Simple and user-friendly interface</li>
+              </ul>
+            </section>
+
+            <section id="cons">
+              <h2>Limitations and Drawbacks</h2>
+              <ul>
+                <li>No automatic updates (manual installs required)</li>
+                <li>No syncing with official YouTube accounts or cloud services</li>
+                <li>Long-term availability depends on developer support</li>
+              </ul>
+            </section>
+
+            <section id="final">
+              <h2>Final Opinion on YMusic Mod APK</h2>
+              <p>
+                YMusic Mod APK is a strong option for Android users who want flexibility, efficiency, and an audio-first experience.
+                With ad-free playback, offline downloads, and background listening, it delivers practical value for music-focused users.
+              </p>
+
+              <div class="cta-row" style="margin-top:16px;">
+                <a class="btn btn-primary" href="https://ymusicapks.com/" target="_blank" rel="noopener noreferrer">
+                  Link 1 <span aria-hidden="true">↗</span>
+                </a>
+                <a class="btn btn-ghost" href="https://ymusicmodapk-71847c.gitlab.io/" target="_blank" rel="noopener noreferrer">
+                  Link 2 <span aria-hidden="true">↗</span>
+                </a>
+                <a class="btn btn-mango" href="https://herrybroke.codeberg.page/yMusicios/" target="_blank" rel="noopener noreferrer">
+                  Link 3 <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </section>
+
+          </div>
+        </article>
+
+        <aside aria-label="Sidebar">
+          <div class="sidecard">
+            <h3>Link 1</h3>
+            <p style="margin:0 0 12px;color:var(--muted);">Opens in a new tab.</p>
+            <a class="link" href="https://ymusicapks.com/" target="_blank" rel="noopener noreferrer">
+              Open ymusicapks.com <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="sidecard">
+            <h3>Link 2</h3>
+            <p style="margin:0 0 12px;color:var(--muted);">Opens in a new tab.</p>
+            <a class="link" href="https://ymusicmodapk-71847c.gitlab.io/" target="_blank" rel="noopener noreferrer">
+              Open ymusicmodapk-71847c.gitlab.io <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="sidecard">
+            <h3>Link 3</h3>
+            <p style="margin:0 0 12px;color:var(--muted);">Opens in a new tab.</p>
+            <a class="link" href="https://herrybroke.codeberg.page/yMusicios/" target="_blank" rel="noopener noreferrer">
+              Open herrybroke.codeberg.page/yMusicios <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="sidecard">
+            <h3>Quick safety checklist</h3>
+            <ul style="margin:0;padding-left:18px;color:var(--muted);">
+              <li>Use trusted sources only</li>
+              <li>Review permissions</li>
+              <li>Keep Android updated</li>
+              <li>Scan APK if unsure</li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;">
+        <span>© <span id="year"></span> YMusic Mod APK Review</span>
+        <span>Professional UI/UX • SEO-ready structure</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
